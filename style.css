@@ -34,9 +34,16 @@ main{
 }
 ul li{
     list-style: none;
+    
     border-bottom: 1px solid grey;
     text-align: center;
     margin: 10px auto ;
+   
+}
+li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:#000;
 }
 ul{
   padding: 10px;
@@ -46,6 +53,7 @@ article{
     padding:10px;
     margin:10px auto;
     background-color: #fff;
+    box-shadow: 4px 2px 4px grey;
 }
 
 
@@ -90,11 +98,13 @@ article{
         grid-area:main;
         padding: 15px;
     }
-    ul li{
+    ul li , li a{
         list-style: none;
-       
+       border:none;
         text-align: center;
         margin: 10px auto ;
+        font-size: 1.2rem;
+        text-decoration: none;
     }
     ul{
       padding: 2px;
